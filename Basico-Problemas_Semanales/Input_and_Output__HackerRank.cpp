@@ -7,10 +7,19 @@ int main(){
     int a=0;
     int b=0;
     int c=0;
-    int d= a+b+c;
+    int suma=0;
     //Se solicita ingresar las 3 variables
-    cin>>a>>b>>c;
-    cout<<d;
+    cout<<" \t";
+    cin>>a;
+    cout<<"+\t";
+    cin>>b;
+    cout<<" \t";
+    cin>>c;
+    //Se suma
+    suma=a+b+c;
+    //Se imprime el resultado
+    cout<<"___________________"<<endl;
+    cout<<" \t"<<suma;
 
     return 0;
 }
