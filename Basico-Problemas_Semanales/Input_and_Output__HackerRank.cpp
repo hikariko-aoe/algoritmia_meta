@@ -19,7 +19,7 @@ int main(){
     //Se suma
     suma=a+b+c;
     //Se imprime el resultado
-    cout<<"___________________"<<endl;
+    cout<<"____________________"<<endl;
     cout<<" \t"<<suma;
 
     getch();
