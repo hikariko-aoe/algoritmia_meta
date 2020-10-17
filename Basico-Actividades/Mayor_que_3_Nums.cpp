@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -31,5 +32,6 @@ int main ()
         cout<<"\nEl 3er numero ("<<c<<") es mayor que los demas";
     }
 
+    getch();
     return 0;
 }
