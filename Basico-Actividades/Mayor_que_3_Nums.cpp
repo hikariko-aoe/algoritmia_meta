@@ -23,13 +23,13 @@ int main ()
         cout<<"\nLos 3 numeros son iguales owo";
     }
     else if (b<a && c<a){    //Si el 1er numero es mayor que todos
-        cout<<"\nEl 1er numero ("<<a<<") es mayor que los demas";
+        cout<<"\nEl 1er numero ("<<a<<") es mayor que los demas !";
     }
     else if (a<b && c<b){    //Si el 2do numero es mayor que todos
-        cout<<"\nEl 2do numero ("<<b<<") es mayor que los demas";
+        cout<<"\nEl 2do numero ("<<b<<") es mayor que los demas !";
     }
     else if (a<c && b<c){    //Si el 3er numero es mayor que todos
-        cout<<"\nEl 3er numero ("<<c<<") es mayor que los demas";
+        cout<<"\nEl 3er numero ("<<c<<") es mayor que los demas !";
     }
 
     getch();

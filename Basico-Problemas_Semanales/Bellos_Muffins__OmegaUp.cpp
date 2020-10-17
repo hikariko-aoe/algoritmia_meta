@@ -15,8 +15,8 @@ int main(){
     cin>>y;
     div=x/y;
     res=x%y;
-    cout<<"Tu y tus compas se van a comer ["<<div<<"] muffins"<<endl;
-    cout<<"Entonces tu compa Gil se va a comer ["<<div+res<<"] muffins"<<endl;
+    cout<<"Tu y tus compas se van a comer ["<<div<<"] muffins !"<<endl;
+    cout<<"Entonces tu compa Gil se va a comer ["<<div+res<<"] muffins !"<<endl;
 
     getch();
     return 0;
