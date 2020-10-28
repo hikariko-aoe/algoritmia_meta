@@ -4,18 +4,20 @@ using namespace std;
 
 int main(){
     //Variables
-    int a, b, n, x, ab;
+    int a, b, n, bar;
     //Long, de las barras
     cin>>n;
     //Long, Lados verticales (a*2)
     cin>>a;
-    a=a*2;
     //Long, Lado superior
     cin>>b;
     //Operaciones/Calculos
-    
+    //No tengo idea de como interpretar el calculo unu
+    if(n>a && n>b){
+        bar=(n/(a*2));
+    }
+    cout<<bar;
     //Impresion
-    cout<<x;
 
     return 0;
 }
