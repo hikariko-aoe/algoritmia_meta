@@ -8,7 +8,7 @@ int main(){
     float imp;
     //Introducir tu salario
     cin>>sal;
-    //Si el salario es menor a 969.5, sacarle el 1.92% de impuestos
+    //Si el salario es menor a 969.5, sacarle el 1.92% de impuestos.
     if (sal>=0.01 && sal<=969.5){
         imp=sal/100*1.92;
         cout<<imp;
