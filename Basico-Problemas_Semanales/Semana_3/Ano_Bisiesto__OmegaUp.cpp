@@ -17,10 +17,8 @@ int main(){
         else{
             cout<<"BISIESTO"<<endl;
         }
-        
     }
     else{
         cout<<"NO BISIESTO"<<endl;
     }
-    
 }

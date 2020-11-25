@@ -1,11 +1,14 @@
-// Your First C++ Program
+#include<iostream>
+#include<vector>
 
-#include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "Hello World!, test no2, nvm no3, good,commit test, nvm just a edit commit test o yeah!!!";
-    return 0;
 
-    system("pause");
+    int num = 0;
+    //Suma desde el 2 mas todos los valores desde el 2 al 88
+    for(int i = 2; i <= 88; i++)
+    num += i;   //Num = Num + i
+    cout<<num<<endl;
     
 }
